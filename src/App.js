@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Wrapper from "./components/Wrapper";
+import Shape from "./components/Shape";
+import shapes from "./shapes.json";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  state = {
+    shapes
+  };
+
+  render() {
+    return (
+      <>
+        <nav className="navbar navbar-light bg-light justify-content-center">
+          <span className="navbar-brand mb-0 h1">Clicky Game</span>
+        </nav>
+        <Wrapper>
+          {this.state.shapes.map(shape => (
+            <Shape image={shape.image} id={shape.id} key={shape.id} />
+          ))}
+        </Wrapper>
+      </>
+    );
+  }
 }
-
 export default App;
