@@ -8,6 +8,10 @@ class App extends Component {
     shapes
   };
 
+  firstClick = id => {
+    console.log(id);
+  };
+
   render() {
     return (
       <>
@@ -16,7 +20,12 @@ class App extends Component {
         </nav>
         <Wrapper>
           {this.state.shapes.map(shape => (
-            <Shape image={shape.image} id={shape.id} key={shape.id} />
+            <Shape
+              image={shape.image}
+              id={shape.id}
+              key={shape.id}
+              firstClick={this.firstClick}
+            />
           ))}
         </Wrapper>
       </>
