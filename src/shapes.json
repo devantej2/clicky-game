@@ -2,62 +2,74 @@
   {
     "id": 1,
     "name": "square",
-    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/square-shape.gif"
+    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/square-shape.gif",
+    "clicked": false
   },
   {
     "id": 2,
     "name": "indent",
-    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/star-smooth-indents.gif"
+    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/star-smooth-indents.gif",
+    "clicked": false
   },
   {
     "id": 3,
     "name": "pentagon",
-    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/five-sided-polygon.gif"
+    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/five-sided-polygon.gif",
+    "clicked": false
   },
   {
     "id": 4,
     "name": "circle",
-    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/photoshop-circular-shape.gif"
+    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/photoshop-circular-shape.gif",
+    "clicked": false
   },
 
   {
     "id": 5,
     "name": "dodecagon",
-    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/12-sided-polygon.gif"
+    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/12-sided-polygon.gif",
+    "clicked": false
   },
   {
     "id": 6,
     "name": "star",
-    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/photoshop-star.gif"
+    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/photoshop-star.gif",
+    "clicked": false
   },
   {
     "id": 7,
     "name": "triangle",
-    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/triangle-shape.gif"
+    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/triangle-shape.gif",
+    "clicked": false
   },
   {
     "id": 8,
     "name": "smooth",
-    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/star-smooth-corners.gif"
+    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/star-smooth-corners.gif",
+    "clicked": false
   },
   {
     "id": 9,
     "name": "spoke",
-    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/starburst-shape.gif"
+    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/starburst-shape.gif",
+    "clicked": false
   },
   {
     "id": 10,
     "name": "asterisk",
-    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/8-pointed-star.gif"
+    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/8-pointed-star.gif",
+    "clicked": false
   },
   {
     "id": 11,
     "name": "rectangle",
-    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/rounded-rectangle-radius-10.gif"
+    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/rounded-rectangle-radius-10.gif",
+    "clicked": false
   },
   {
     "id": 12,
     "name": "rounded",
-    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/sounded-rectangle-radius-150.gif"
+    "image": "https://pe-images.s3.amazonaws.com/basics/shapes/sounded-rectangle-radius-150.gif",
+    "clicked": false
   }
 ]

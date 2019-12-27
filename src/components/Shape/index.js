@@ -7,7 +7,9 @@ function Shape(props) {
       src={props.image}
       className="rounded"
       alt={props.name}
-      onClick={() => props.firstClick(props.id)}
+      id={props.id}
+      key={props.id}
+      onClick={() => props.imagesClicked(props.id)}
     />
   );
 }

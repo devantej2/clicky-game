@@ -5,11 +5,14 @@ import shapes from "./shapes.json";
 
 class App extends Component {
   state = {
-    shapes
+    shapes,
+    chosen: []
   };
 
-  firstClick = id => {
-    console.log(id);
+  imagesClicked = id => {
+    const chosen = this.state.chosen.concat(id);
+    this.setState({ chosen });
+    console.log(chosen);
   };
 
   render() {
@@ -22,9 +25,10 @@ class App extends Component {
           {this.state.shapes.map(shape => (
             <Shape
               image={shape.image}
+              alt={shape.name}
               id={shape.id}
               key={shape.id}
-              firstClick={this.firstClick}
+              imagesClicked={this.imagesClicked}
             />
           ))}
         </Wrapper>
