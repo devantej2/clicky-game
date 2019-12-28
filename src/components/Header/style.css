@@ -1,0 +1,22 @@
+.row {
+  box-sizing: border-box;
+  background: rgb(131, 58, 180);
+  background: radial-gradient(
+    circle,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(250, 253, 29, 1) 86%,
+    rgb(143, 131, 114) 100%
+  );
+  font-family: "Permanent Marker", cursive;
+}
+
+.message {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+hr {
+  border: 1px solid black;
+  width: 70%;
+  margin: 0;
+}

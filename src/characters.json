@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "name": "Otto",
+    "image": "https://static.tvtropes.org/pmwiki/pub/images/fa1674a8dc38df0e5ca0df8498704d8a_rocket_power_cartoon_network.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Reggie",
+    "image": "https://static.tvtropes.org/pmwiki/pub/images/8e3d70de64f8d08d34fdeff64919db85_rockets_costume_ideas.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Twister",
+    "image": "https://static.tvtropes.org/pmwiki/pub/images/twisterbig.gif"
+  },
+  {
+    "id": 4,
+    "name": "Squid",
+    "image": "https://static.tvtropes.org/pmwiki/pub/images/tumblr_inline_mlmxsclcf41qz4rgp.gif"
+  },
+
+  {
+    "id": 5,
+    "name": "Ray",
+    "image": "https://static.tvtropes.org/pmwiki/pub/images/ray_rocket.png"
+  },
+  {
+    "id": 6,
+    "name": "Tito",
+    "image": "http://aninetopia.tripod.com/titobig.gif"
+  },
+  {
+    "id": 7,
+    "name": "Otto2",
+    "image": "https://img.pngio.com/download-otto-on-skatebored-otto-rocket-skateboard-png-image-no-skateboard-png-321_404.png"
+  },
+  {
+    "id": 8,
+    "name": "Reggie2",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41R18Bj%2BL-L._AC_.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Twister2",
+    "image": "https://vignette.wikia.nocookie.net/rocketpower/images/1/10/Twister_with_his_arms_crossed.png/revision/latest/scale-to-width-down/200?cb=20160417053939"
+  },
+  {
+    "id": 10,
+    "name": "Squid2",
+    "image": "https://vignette.wikia.nocookie.net/rocketpower/images/3/38/Sam_giving_a_thumbs_up.png/revision/latest/scale-to-width-down/250?cb=20160417053941"
+  },
+  {
+    "id": 11,
+    "name": "Ray2",
+    "image": "http://aninetopia.tripod.com/raybig.gif"
+  },
+  {
+    "id": 12,
+    "name": "Tito2",
+    "image": "https://img.sharetv.com/shows/characters/large/rocket_power.tito_makani.jpg"
+  }
+]
