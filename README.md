@@ -1,5 +1,7 @@
 # Clicky Game
 
+Deployed Link: https://devantej2.github.io/clicky-game/
+
 ## Overview
 
 Memory game built using React. The applications UI will have the following features:
